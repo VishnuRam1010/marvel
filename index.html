@@ -92,28 +92,28 @@
   flex-basis: 400px;
 }
 .panel:nth-child(2) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 .panel:nth-child(3) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 .panel:nth-child(4) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 .panel:nth-child(5) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 .panel:nth-child(6) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 .panel:nth-child(7) {
   flex-basis: 400px;
 }
 .panel:nth-child(8) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 .panel:nth-child(9) {
-  flex-basis: 200px;
+  flex-basis: 400px;
 }
 
 /* background colours */  
@@ -123,18 +123,33 @@
 }
 
 .panel:nth-child(2) {
-  background-image:radial-gradient(circle, lightblue, deepskyblue);
+  background-image:url(handsup2.jpeg);
+  background-size: cover;
 }
 
 .panel:nth-child(3) {
-  background-image:radial-gradient(circle, palegreen, yellowgreen);
+  background-image: radial-gradient(red,red);
+  
+  
 }
 
 .panel:nth-child(4) {
-  background-image:radial-gradient(circle, lightcoral, tomato);
+  background-image:radial-gradient(circle, red, red);
 }
 
+.panel:nth-child(5) {
+  background-image:radial-gradient(circle, red, red);
+}
 
+.panel:nth-child(6) {
+  background-image:url(Mark1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.panel:nth-child(7) {
+  background-image:radial-gradient(circle, red, red);
+}
 
 </style>
 <body>
@@ -144,20 +159,46 @@
                 <source src="intro.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-          <p class="text top-left">MARVEL CINEMATIC UNIVERSE </p>
+          <p class="text top-left">Marvel Cinematic Universe </p>
           <p class="text bottom-right">INTRO</p>
         </div>
         <div class="panel">
-          <p class="text top-left">Try resizing...</p>
-          <p class="text bottom-right">...it's responsive</p>
+          <p class="text top-left">Jericho Missile Test</p>
+          <p class="text bottom-right">By Stark Industries</p>
+
         </div>
         <div class="panel">
-          <p class="speech">A speech bubble</p>
+          <video width="100%" height="100%" autoplay loop muted>
+            <source src="Boom.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="text top-left">boom!</p>
+         
         </div>
-        <div class="panel"></div>
-        <div class="panel"></div>
-        <div class="panel"></div>
-        <div class="panel"></div>
+        <div class="panel">
+          <video width="100%" height="100%" autoplay loop muted>
+            <source src="kidnap.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="text bottom-right">Kidnaped</p>
+       </div>
+        <div class="panel">
+          <video width="100%" height="100%" autoplay loop muted>
+            <source src="Mark1 Making.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="text bottom-right">Making Of Mark1 Suit</p>
+        </div>
+        <div class="panel">
+          <p class="text top-left">Mark 1</p>
+        </div>
+        <div class="panel">
+          <video width="100%" height="100%" autoplay loop muted>
+            <source src="escape.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <p class="text top-left">Escape</p>
+        </div>
         <div class="panel"></div>
         <div class="panel">
           <p class="text bottom-right">THE END</p>
